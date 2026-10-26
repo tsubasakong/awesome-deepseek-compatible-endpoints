@@ -80,7 +80,8 @@
         "ctx": 1048576
       }
     ],
-    "last_checked_at": "2026-10-20"
+    "last_checked_at": "2026-10-26",
+    "reachable": "open"
   },
   {
     "provider": "DeepInfra",
@@ -90,7 +91,7 @@
     "billing": "per-token USD, card; promos on some lanes",
     "pricing_url": "https://deepinfra.com/models",
     "verified": "2026-10-20",
-    "last_checked_at": "2026-10-20",
+    "last_checked_at": "2026-10-26",
     "models": [
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash",
@@ -108,7 +109,8 @@
         "cached_in": 0.006,
         "note": "promo $0.098/$0.294 seen on model page 2026-10-20"
       }
-    ]
+    ],
+    "reachable": "auth-gated"
   },
   {
     "provider": "Fireworks AI",
@@ -118,7 +120,7 @@
     "billing": "per-token USD, card",
     "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
     "verified": "2026-10-20",
-    "last_checked_at": "2026-10-20",
+    "last_checked_at": "2026-10-26",
     "models": [
       {
         "id": "accounts/fireworks/models/deepseek-v4p1-flash",
@@ -134,7 +136,8 @@
         "ctx": 256000,
         "cached_in": 0.006
       }
-    ]
+    ],
+    "reachable": "auth-gated"
   },
   {
     "provider": "Novita AI",
@@ -144,7 +147,7 @@
     "billing": "per-token USD, card",
     "pricing_url": "https://novita.ai/models/llm",
     "verified": "2026-10-20",
-    "last_checked_at": "2026-10-20",
+    "last_checked_at": "2026-10-26",
     "models": [
       {
         "id": "DeepSeek V4.1 Flash (console listing id pending)",
@@ -166,7 +169,8 @@
         "out": 1.32,
         "ctx": 1048576
       }
-    ]
+    ],
+    "reachable": "open"
   },
   {
     "provider": "OpenRouter",
@@ -176,7 +180,7 @@
     "billing": "per-token USD, credits; some free lanes",
     "pricing_url": "https://openrouter.ai/api/v1/models",
     "verified": "2026-10-20",
-    "last_checked_at": "2026-10-20",
+    "last_checked_at": "2026-10-26",
     "models": [
       {
         "id": "deepseek/deepseek-v4.1-flash",
@@ -208,7 +212,8 @@
         "out": 0.182,
         "ctx": 1048576
       }
-    ]
+    ],
+    "reachable": "open"
   },
   {
     "provider": "SiliconFlow",
@@ -218,7 +223,7 @@
     "billing": "per-token USD, card",
     "pricing_url": "https://siliconflow.com/models/deepseek-v4-1-flash",
     "verified": "2026-10-20",
-    "last_checked_at": "2026-10-20",
+    "last_checked_at": "2026-10-26",
     "models": [
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash",
@@ -239,7 +244,8 @@
         "out": 3.96,
         "ctx": 1049000
       }
-    ]
+    ],
+    "reachable": "auth-gated"
   },
   {
     "provider": "Together AI",
@@ -249,7 +255,7 @@
     "billing": "per-token USD, card",
     "pricing_url": "https://www.together.ai/models/deepseek-v4-1-flash",
     "verified": "2026-10-20",
-    "last_checked_at": "2026-10-20",
+    "last_checked_at": "2026-10-26",
     "models": [
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash",
@@ -271,6 +277,7 @@
         "out": 0.28,
         "ctx": 1000000
       }
-    ]
+    ],
+    "reachable": "auth-gated"
   }
 ]
